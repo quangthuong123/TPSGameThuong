@@ -92,7 +92,7 @@ namespace TPSShooter
     {
       while (IsPlayerIn && idleSound)
       {
-        idleSound.pitch = Mathf.Min(2, 1 + _rigidbody.velocity.magnitude * 0.05f);
+        idleSound.pitch = Mathf.Min(2, 1 + _rigidbody.linearVelocity.magnitude * 0.05f);
 
         yield return null;
       }

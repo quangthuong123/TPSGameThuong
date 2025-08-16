@@ -12,7 +12,7 @@ namespace TPSShooter
     public class DecalProperty
     {
       public string name;
-      public PhysicMaterial surfacePhysicMaterial;
+      public PhysicsMaterial surfacePhysicMaterial;
       public GameObject[] decalPrefabs;
     }
   }

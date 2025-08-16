@@ -42,7 +42,7 @@ namespace TPSShooter
       isInHand = false;
       transform.parent = null;
       GetComponent<Rigidbody>().isKinematic = false;
-      GetComponent<Rigidbody>().velocity = velocity;
+      GetComponent<Rigidbody>().linearVelocity = velocity;
     }
 
     private void UpdatePosition()
